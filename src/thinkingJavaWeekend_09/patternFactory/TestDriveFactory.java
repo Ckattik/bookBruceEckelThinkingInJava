@@ -10,10 +10,11 @@ public class TestDriveFactory {
 		// TODO Auto-generated method stub
 		
 		
-		UniCycle uniCycle = new UniCycle();
-		CycleStore uniStore = new CycleStore(uniCycle);
-		uniStore.orderCycle("two wheels");
 
+		SimpleFactoryCycle factory = new SimpleFactoryCycle();   
+		CycleStore s = new CycleStore(factory);
+		s.orderCycle("two wheel");
+		
 	}
 
 }
