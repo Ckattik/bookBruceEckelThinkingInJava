@@ -13,7 +13,7 @@ public class RandomChar  {
 	private static Random rand = new Random(47);
 	
 	public double next() {
-		return rand.;
+		return rand.nextDouble();
 	}
 
 	
