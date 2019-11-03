@@ -1,4 +1,4 @@
-package thinkingJavaWekeend_09.multipleInterfaces;
+package thinkingJavaWeekend_09.multipleInterface;
 
 public class Hero extends ActionCharacter implements CanFight, CanSwim, CanFly, CanClimb{
 

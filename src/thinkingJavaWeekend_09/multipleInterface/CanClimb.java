@@ -1,4 +1,4 @@
-package thinkingJavaWekeend_09.multipleInterfaces;
+package thinkingJavaWeekend_09.multipleInterface;
 
 public interface CanClimb {
 
