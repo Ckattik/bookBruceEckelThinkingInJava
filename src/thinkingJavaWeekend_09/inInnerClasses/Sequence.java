@@ -24,6 +24,12 @@ public class Sequence {
 	private class SequenceSelector implements Selector{
 		 
 		private int i = 0;
+	
+		
+		public Sequence createSequence() {
+			return new Sequence(i);
+			
+		}
 		
 		@Override
 		public Object current() {
@@ -48,6 +54,8 @@ public class Sequence {
 	public Selector selector() {
 		return new SequenceSelector();
 	}
+	
+	
 	
 	
 	public static void main(String [] args) {
