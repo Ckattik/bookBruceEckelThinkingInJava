@@ -38,6 +38,8 @@ public class Outer {
 		Outer ou = new Outer("sdada");
 		ou.start();
 	   
+		
+		
 		ou.outerToString();
 	}
 	
