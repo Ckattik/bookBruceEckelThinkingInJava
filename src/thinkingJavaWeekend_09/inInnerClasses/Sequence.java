@@ -61,6 +61,9 @@ public class Sequence {
 			Ckatt.outConsole(selector.current() + " ");
 			selector.next();
 		}
+		
+		String str = new String();
+		str.toString();
 	}
 	
 }

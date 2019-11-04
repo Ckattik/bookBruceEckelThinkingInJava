@@ -4,13 +4,22 @@ import myClass.Ckatt;
 
 public class Outer {
 
-	public Outer() {
+	private String str;
+	
+	public Outer(String str) {
 		// TODO Auto-generated constructor stub
+	
+	this.str = str;
+	
 	}
 
 	
 	class Inner{
 		
+		public String toString() {
+			Ckatt.outConsole(str);
+			return str;
+		}
 	}
 	
 	
@@ -19,12 +28,17 @@ public class Outer {
 		return new Inner();
 	}
 	
+	public void outerToString() {
+		Inner s = new Inner();
+	    s.toString();
+	}
+	
 	public static void main(String [] args) {
 		
-		
-		
-		Outer ou = new Outer();
+		Outer ou = new Outer("sdada");
 		ou.start();
+	   
+		ou.outerToString();
 	}
 	
 }
