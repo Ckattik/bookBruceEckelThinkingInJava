@@ -1,4 +1,4 @@
-package thinkingJavaWeekend_09.patternFactory;
+package patterns.patternFactory;
 
 public class SimpleFactoryCycle {
 
