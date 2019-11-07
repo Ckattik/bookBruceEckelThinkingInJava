@@ -13,6 +13,7 @@ public class Parcel7 {
 		
 		return new Contents() { //вставка анонимного класса 
 			private int i = 11;
+			
 			public int value() {
 				return i;
 			}

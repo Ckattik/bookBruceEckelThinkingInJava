@@ -5,6 +5,10 @@ public class DragonZilla implements DangerousMonster {
 	public DragonZilla() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	
+	
+	
 
 	@Override
 	public void menace() {

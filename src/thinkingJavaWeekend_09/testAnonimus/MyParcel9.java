@@ -9,7 +9,7 @@ public class MyParcel9 {
 	public MyParcel9() {
 		// TODO Auto-generated constructor stub
 	}
-	
+	//  innerClass
 	/*public Destination destination(String s) {
 		class PDestination implements Destination {
 			private String label;
@@ -31,6 +31,9 @@ public class MyParcel9 {
 		return new PDestination(s);
 	}*/
 
+	
+	//anonymousInnerClass
+	
 	public Destination destinationAnonymous(String s) {
 		return new Destination() {
 			
