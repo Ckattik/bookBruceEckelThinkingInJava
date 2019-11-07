@@ -30,10 +30,17 @@ public class HorrorShow {
 		DangerousMonster d = barney.dragonZilla();
 		Ckatt.outConsole(d.toString());
 		
-		Vampire vlad = new VeryBadVampire();
-		u(vlad);
-		v(vlad);
-		w(vlad);
+		
+		VeryBadVampire v = new VeryBadVampire();
+		Vampire vl = v.vampire();
+		Ckatt.outConsole(vl.toString());
+		
+		
+		
+		//Vampire vlad = new VeryBadVampire();
+		//u(vlad);
+		//v(vlad);
+		//w(vlad);
 		
 	}
 
