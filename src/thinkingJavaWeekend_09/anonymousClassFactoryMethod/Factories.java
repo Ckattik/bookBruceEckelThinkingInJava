@@ -1,5 +1,7 @@
 package thinkingJavaWeekend_09.anonymousClassFactoryMethod;
 
+import Ckatt.Implementation4;
+
 public class Factories {
 
 	public Factories() {
@@ -16,7 +18,10 @@ public class Factories {
 	public static void main(String [] args) {
 		serviceConcumer(Implementation1.factory);
 		//Реализации полностью взаимо заменяемы
-		serviceConcumer(Implementation1.factory);
+		serviceConcumer(Implementation2.factory);
+		
+		serviceConcumer(Implementation3.factory);
+		serviceConcumer(Implementation4.factory);
 	}
 	
 	
