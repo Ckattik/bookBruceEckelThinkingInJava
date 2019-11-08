@@ -23,7 +23,7 @@ public class Applay {
 		
 		process(Upcase.factory, s);
 		process(Downcase.factory, s);
-		process(Splitter.factory,s);
+		process(Splitter.factory, s);
 		
 	}
 
