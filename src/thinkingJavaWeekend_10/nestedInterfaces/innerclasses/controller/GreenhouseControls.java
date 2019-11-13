@@ -129,6 +129,14 @@ public class GreenhouseControls extends Controller {
 			return "“ермостат использует дневной режим";
 		}
 	}
+	
+	
+	public class Airing extends Event{
+		public Airing(long delayTime) {
+			// TODO Auto-generated constructor stub
+		   
+		}
+	}
 
 	// пример метода action() вставл€ющего новый экземпл€р
 	// самого себ€ в список событий
