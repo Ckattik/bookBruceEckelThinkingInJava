@@ -130,13 +130,41 @@ public class GreenhouseControls extends Controller {
 		}
 	}
 	
-	
-	//public class Airing extends Event{
-	//	public Airing(long delayTime) {
+	private boolean airing = false;
+	public class AiringOn extends Event{
+		public AiringOn(long delayTime) {
 			// TODO Auto-generated constructor stub
-		   
-	//	}
-	//}
+		   super(delayTime);
+		}
+		@Override
+		public void action() {
+			// TODO Auto-generated method stub
+			airing = true;
+		}
+		
+		public String toString() {
+			return "Проветривание включено";
+		}
+	}
+	
+	public class AiringOff extends Event{
+		public AiringOff(long delayTime) {
+			// TODO Auto-generated constructor stub
+		   super(delayTime);
+		}
+		@Override
+		public void action() {
+			// TODO Auto-generated method stub
+			airing = false;
+		}
+		
+		public String toString() {
+			return "Проветривание выключено";
+		}
+	}
+	
+	
+	
 
 	// пример метода action() вставляющего новый экземпляр
 	// самого себя в список событий
