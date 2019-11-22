@@ -20,7 +20,7 @@ public class GreenhouseController {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		GreenhouseExt ge = new GreenhouseExt();
 		GreenhouseControls gc = new GreenhouseControls();
 		gc.addEvent(gc.new Bell(900));
 		Event [] eventList = {
@@ -30,7 +30,8 @@ public class GreenhouseController {
 			gc.new WaterOn(600),
 			gc.new WaterOff(800),
 			gc.new ThermostatDay(1400),
-			gc.new AiringOn(1000)
+			gc.new AiringOn(1000),
+			ge.new HumidificationOn(100)
 			
 		};
 		
