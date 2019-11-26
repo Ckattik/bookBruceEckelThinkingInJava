@@ -2,6 +2,7 @@ package thinkinginJavaWeekend_11.holding;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashSet;
 
 import myClass.Ckatt;
 
@@ -14,7 +15,7 @@ public class SimpleCollection {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Collection<Integer> c = new ArrayList<Integer>();
+		Collection<Integer> c = new HashSet<Integer>();
 		
 		for (int i = 0; i < 10; i++) {
 
