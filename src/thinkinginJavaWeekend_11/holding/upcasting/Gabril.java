@@ -18,7 +18,7 @@ public class Gabril {
 	}
 	
 	public boolean hop() {
-		Ckatt.outConsole(gebrilNumber + " dsadasd");
+		Ckatt.outConsole(gebrilNumber + " ûdsadasd");
 		return false;
 		
 	}
