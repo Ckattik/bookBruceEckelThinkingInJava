@@ -1,9 +1,13 @@
 package thinkingJavaWeekend_09.inInnerClasses;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import myClass.Ckatt;
 
 public class Sequence {
 
+	
 	private Object[] items;
 	private int next = 0;
 	
@@ -12,6 +16,7 @@ public class Sequence {
 		// TODO Auto-generated constructor stub
 	   
 		items = new Object[size];
+		
 	}
 	
 	public void add(Object x) {
@@ -60,10 +65,16 @@ public class Sequence {
 	
 	public static void main(String [] args) {
 		Sequence sequence = new Sequence(10);
+		List<Integer> it = new ArrayList<Integer>();
+		//for (int i = 0; i < 10; i++) {
+		//	sequence.add(Integer.toString(i));
+		//}
 		
-		for (int i = 0; i < 10; i++) {
-			sequence.add(Integer.toString(i));
+		for (int i = 0; i < it.size(); i++) {
+			it.add(i);
 		}
+		
+		
 		Selector selector = sequence.selector();
 		while(!selector.end()) {
 			Ckatt.outConsole(selector.current() + " ");
